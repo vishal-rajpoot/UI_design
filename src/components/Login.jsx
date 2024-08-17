@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState } from "react";
 import woman from "../assets/login.svg";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   const [values, setValues] = useState({
@@ -20,11 +21,11 @@ const Login = () => {
   };
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 bg-white h-full ">
+    <div className="grid grid-cols-1 lg:grid-cols-2 bg-white h-full px-12">
       <div className="relative flex items-end px-4 pb-10 pt-60 sm:px-6 sm:pb-16 md:justify-center lg:px-8 lg:pb-24">
         <div className="absolute inset-0">
           <img
-            className="h-full w-full rounded-md object"
+            className="h-full w-full rounded-md object px-4"
             src={woman}
             alt="woman"
           />
@@ -37,13 +38,13 @@ const Login = () => {
           </h2>
           <p className="mt-2 mb-8 text-base text-gray-600">
             Don't have an account?{" "}
-            <a
-              href="#"
+            <Link
+              to="/signup"
               title=""
               className="font-medium text-black transition-all duration-200 hover:underline"
             >
               Create a free account
-            </a>
+            </Link>
           </p>
           <form
             onSubmit={handleSubmit}
