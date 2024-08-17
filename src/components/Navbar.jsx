@@ -30,7 +30,7 @@ export function Navbar() {
     <div className="relative w-full bg-white">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <Link className="inline-flex items-center space-x-2" to="/">
-          <span>
+          {/* <span>
             <svg
               width="30"
               height="30"
@@ -43,7 +43,7 @@ export function Navbar() {
                 fill="black"
               />
             </svg>
-          </span>
+          </span> */}
           <span className="font-bold">Vishal Rajput</span>
         </Link>
         <div className="hidden grow items-start lg:flex">
@@ -93,7 +93,7 @@ export function Navbar() {
               <div className="px-5 pb-6 pt-5">
                 <div className="flex items-center justify-between">
                   <div className="inline-flex items-center space-x-2">
-                    <span>
+                    {/* <span>
                       <svg
                         width="30"
                         height="30"
@@ -106,7 +106,7 @@ export function Navbar() {
                           fill="black"
                         />
                       </svg>
-                    </span>
+                    </span> */}
                     <span className="font-bold">Vishal Rajput</span>
                   </div>
                   <div className="-mr-2">

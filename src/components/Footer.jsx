@@ -22,7 +22,7 @@ export function Footer() {
                 <span className="ml-4 text-lg font-bold">Vishal Rajput</span>
               </div>
               <div>
-                <p className="mb-4  text-base font-medium">The Indoor Driving Company</p>
+                <p className="mb-4  text-base font-medium">Driving License at your Home</p>
                 <p className="text-sm text-gray-600">
                   &copy; Copyright 2022. All Rights Reserved by Vishal Rajput.
                 </p>
