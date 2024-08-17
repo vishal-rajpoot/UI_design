@@ -99,7 +99,7 @@ const Login = () => {
                 <a
                   href="#"
                   title=""
-                  className="text-sm font-semibold text-black hover:underline"
+                  className="text-sm font-semibold text-black hover:underline flex justify-end"
                 >
                   {" "}
                   Forgot password?{" "}
